@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geografi">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:background="@drawable/peta_kebumen"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Geografi Kebumen"
+                android:background="#2196F3"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:textColor="#000"/>
+            <!--Lintang Astronomi-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Lintang Astronomi"
+                android:textSize="18dp"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:layout_marginTop="0dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="7°27' - 7°50' Lintang Selatan dan 109°22' - 109°50' Bujur Timur"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <!--Luas Wilayah-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Luas Wilayah"
+                android:textSize="18dp"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="158.111, 50 ha atau 1.581, 11 km² "
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <!--bentuk wilayah-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Bentuk Wilayah"
+                android:textSize="18dp"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagian selatan Kabupaten Kebumen merupakan dataran rendah, sedangkan pada bagian utara berupa pegunungan dan perbukitan yang merupakan bagian dari rangkaian Pegunungan Serayu Selatan. Sementara itu di barat wilayah Gombong, terdapat Kawasan Karst Gombong Selatan sebuah rangkaian pegunungan kapur yang membujur hingga pantai selatan berarah utara-selatan"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Dari luas wilayah Kabupaten Kebumen, tercatat 49.768, 00 hektare atau sekitar 31, 04% sebagai lahan sawah dan 108, 343.50 hektare atau 68.96% sebagai lahan kering."
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:text="Menurut penggunaannya, sebagian besar lahan sawah beririgasi teknis dan hampir seluruhnya (46, 18%) dapat ditanami dua kali dalam setahun, sebagian lagi berupa sawah tadah hujan (37, 82%) yang di beberapa tempat dapat ditanami dua kali dalam setahun, serta 11, 25% lahan sawah beririgasi setengah teknis dan sederhana"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:text="Lahan kering digunakan untuk bangunan seluas 40.985, 00 hektare (37, 73%), tegalan/kebun seluas 33.777, 00 hektare (33, 57%) serta hutan negara seluas 22.861, 00 hektare (21, 08%) dan sisanya digunakan untuk padang penggembalaan, tambak, kolam, tanaman kayu-kayuan, serta lahan yang sementara tidak diusahakan dan tanah lainnya"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <!--batas wilayah-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Batas Wilayah"
+                android:textSize="18dp"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Utara :Kabupaten Banjar Negara"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:text="Timur :Kabupaten Wonosobo dan Kabupaten Purworejo"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:text="Selatan :Samudra Hindia"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginLeft="11dp"
+                android:textColor="#000"
+                android:text="Barat :Kabupaten Banyumas dan Kabupaten Cilacap"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <!-- pegunungan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:text=" pegunungan"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="328dp"
+                android:padding="10dp"
+                android:src="@drawable/geografi_gunung" />
+
+        </LinearLayout>
+        <!-- sungai -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Sungai" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="311dp"
+                android:padding="10dp"
+                android:src="@drawable/geografi_sungai" />
+
+        </LinearLayout>
+        <!-- Goa -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:background="#ECECEC"
+                android:padding="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Goa" />
+
+            <ImageView
+                android:layout_width="222dp"
+                android:layout_height="239dp"
+                android:padding="0dp"
+                android:src="@drawable/geografi_goa" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

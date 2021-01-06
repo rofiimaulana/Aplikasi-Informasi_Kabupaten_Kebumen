@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sejarah">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="300dp"
+                android:background="@drawable/tugu_walet"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sejarah Kebumen"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="25dp"
+                        android:textColor="#000">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pada zaman dahulu, Kebumen adalah sebuah kadipaten, yang menyatu dalam daerah Kesultanan Cirebon (1430-1677), disaat itu, Sunan Gunung Djati, yang menyebarkan agama islam di daerah Jawa Barat dan sebagian Jawa Tengah, pernah hilang digigit tikus, di hutan di daerah ini, pada tahun 1553. Kemudian, pada tahun 1830, Kebumen menjadi sebuah kabupaten yang termasuk Karesidenan Bagelen, kemudian sejak tahun 1901, ketika digabungkan dengan Karesidenan Kedu, kemudian Kebumen menjadi kabupaten, yang termasuk Karesidenan Kedu."
+                        android:textSize="15dp"
+                        android:padding="10dp"
+                        android:textColor="#000"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pangeran_bumidirja"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:text="Pangeran Bumidirja"
+                    android:textSize="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Nama Kebumen konon berasal dari kabumian yang berarti sebagai tempat tinggal Kyai Bumi setelah dijadikan daerah pelarian Pangeran Bumidirja atau Pangeran Mangkubumi dari Mataram pada 26 Juni 1677, saat berkuasanya Sunan Amangkurat I. Sebelumnya, daerah ini sempat tercatat dalam peta sejarah nasional sebagai salah satu tonggak patriotik dalam penyerbuan prajurit Mataram pada zaman Sultan Agung ke benteng pertahanan Belanda di Batavia. Saat itu Kebumen masih bernama Panjer."
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:textSize="15dp"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000"
+                        android:text="Salah seorang cicit Pangeran Senopati yaitu Bagus Bodronolo yang dilahirkan di Desa Karanglo, Panjer, atas permintaan Ki Suwarno, utusan Mataram yang bertugas sebagai petugas pengadaan logistik, berhasil mengumpulkan bahan pangan dari rakyat di daerah ini dengan jalan membeli. Keberhasilan membuat lumbung padi yang besar artinya bagi prajurit Mataram, sebagai penghargaan Sultan Agung, Ki Suwarno kemudian diangkat menjadi Bupati Panjer, sedangkan Bagus Bodronolo ikut dikirim ke Batavia sebagai prajurit pengawal pangan."
+                        android:padding="10dp"
+                        android:textSize="15dp"></TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/paku"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:text="pakubuwono 1"
+                    android:textSize="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000"
+                        android:padding="10dp"
+                        android:text="Adapun selain daripada tokoh di atas, ada seorang tokoh legendaris pula dengan nama Joko Sangrib, ia adalah putra Pangeran Puger / Pakubuwono I dari Mataram, dimana ibu Joko Sangrib masih adik ipar dari Demang Honggoyudo di Kuthawinangun. Setelah dewasa ia memiliki nama Tumenggung Honggowongso, ia bersama Pangeran Wijil dan Tumenggung Yosodipuro I berhasil memindahkan keraton Kartosuro ke kota Surakarta sekarang ini. Pada kesempatan lain ia juga berhasil memadamkan pemberontakan yang ada di daerah Banyumas, karena jasanya kemudian oleh Keraton Surakarta ia diangkat dengan gelar Tumenggung Arungbinang I, sesuai nama wasiat pemberian ayahandanya. Dalam Babad Kebumen keluaran Patih Yogyakarta, banyak nama di daerah Kebumen adalah berkat usulannya. Di dalam &quot;Babad Mataram&quot; disebutkan pula Tumenggung Arungbinang I berperan dalam perang Mataram/Perang Pangeran Mangkubumi, saat itu ia bertugas sebagai Panglima Prajurit Dalam di Karaton Surakarta"
+                        android:textSize="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

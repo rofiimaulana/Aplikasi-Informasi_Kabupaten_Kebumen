@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halaman_utamaa"
+    android:gravity=""
+    tools:context=".tam_pertama">
+    <!-- button1. -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/ic_sejarah">
+    </Button>
+
+    <!-- button2. -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/ic_geografi" />
+    <!-- button3. -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/ic_kebudayaan" />
+
+    <!-- button4. -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/ic_wisata" />
+
+    <!-- button5. -->
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/ic_kuis" />
+    <!--button 6-->
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/ic_informasi" />
+</RelativeLayout>

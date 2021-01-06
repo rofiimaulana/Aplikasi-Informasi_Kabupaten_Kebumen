@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halaman_utama_pol"
+    tools:context=".informasi">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo_kebumenan" />
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Stack Dev by Alifa Sabilla"/>
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versi Sekarang 1.0"
+        android:textColor="#000"/>
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:text="© 2019-2020 STEBS. "
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

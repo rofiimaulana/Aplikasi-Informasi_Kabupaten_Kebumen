@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="15sp"
+    tools:context=".kuis">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nomerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/pertanyaanLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/jawabanBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer1"
+        android:layout_marginTop="150dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/jawabanBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer2"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/jawabanBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer3"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/jawabanBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Answer4"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+</LinearLayout>
